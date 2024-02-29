@@ -1,4 +1,4 @@
-public class Homework {
+public class Introduction {
     public static void main(String[] args) {
         System.out.println("Ta Nguyen Thanh\t23020437\tAI1\thnahtneyugn\ttanguyenthanh1969@gmail.com");
         for (int i = 9; i >= 1; i--) {
