@@ -110,7 +110,7 @@ public class CharGrid {
 
         for (int i = 1; i < grid.length - 1; i++) {
             for (int j = 1; j < grid[i].length - 1; j++) {
-                if (up[i][j] == down[i][j] && down[i][j] == left[i][j] && left[i][j] == right[i][j] && up[i][j] >= 2) {
+                if (up[i][j] == down[i][j] && down[i][j] == left[i][j] && left[i][j] == right[i][j] && up[i][j] >= 1 && up[i][j] != ' ') {
                     count++;
                 }
             }

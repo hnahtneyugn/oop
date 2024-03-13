@@ -71,8 +71,8 @@ public class StringCode {
      */
     public static boolean stringIntersect(String a, String b, int len) {
         HashSet<String> s = new HashSet<String>();
-        for (int i = 0; i < a.length() - len + 1; i++) {
-            s.add(a.substring(i, i + len - 1));
+        for (int i = 0; i < a.length() - len; i++) {
+            s.add(a.substring(i, i + len));
         }
 
         for (String str : s) {
@@ -80,7 +80,6 @@ public class StringCode {
                 return true;
             }
         }
-
         return false;
     }
 }
